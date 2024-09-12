@@ -20,9 +20,9 @@ def submit_data():
 
     if c == d:
         return jsonify({"message": "https://dogs"}), 200
-    else if c == e:
+    elif c == e:
         return jsonify({"message": "https://dogs"}), 200
-    else if c == f:
+    elif c == f:
         return jsonify({"message": "https://tin"}), 200
     else:
         return jsonify({"message": "do normal"}), 200
