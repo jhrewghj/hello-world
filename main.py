@@ -26,7 +26,7 @@ def submit_data():
     elif c == f:
         return jsonify({"message": "https://tinf0il.tech"}), 200
     elif c == g:
-        return jsonify({"message": "https://tinf0il.tech"}), 200
+        return jsonify({"message": "https://gointerstellar.app"}), 200
     else:
         return jsonify({"message": "do normal"}), 200
 
