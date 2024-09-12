@@ -19,6 +19,8 @@ def submit_data():
     f = ['3ed6d0fac7dcd33714fed5c9d3b0076f', '38659adc997e4898eb812b2de57e5297'] #tinf0il, tinfoil
     g = ['7d128fea364420e74c62bff0fa777a36', 'afc5d26d56f3993ecb8266d96a50c4fd'] #spacestation123, b98z'
 
+    #user registered usernames and passwords here(they stay a secret)
+
     if c == d:
         return jsonify({"message": "https://surfdoge.pro"}), 200
     elif c == e:
