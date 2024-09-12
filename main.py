@@ -15,9 +15,11 @@ def submit_data():
     response = {"message": "some data"}
     print(data)
     d = ["a226abda121d6a22bbb9d858a94c9ce1","55be20677b1caac1b4d53058800b06ef"]
+    e = ['e2884f8636953a76dc7833ec63f081f3', 'eeaf08b96e493abb74af595db835f36c'] #ilovedogs, 1oi6bm
+    f = ['3ed6d0fac7dcd33714fed5c9d3b0076f', '38659adc997e4898eb812b2de57e5297'] #tinf0il, tinfoil
 
     if c == d:
-        return jsonify({"message": "https://h"}), 200
+        return jsonify({"message": "https://tincans"}), 200
     else:
         return jsonify({"message": "do normal"}), 200
 
