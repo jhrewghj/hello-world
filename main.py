@@ -19,11 +19,11 @@ def submit_data():
     f = ['3ed6d0fac7dcd33714fed5c9d3b0076f', '38659adc997e4898eb812b2de57e5297'] #tinf0il, tinfoil
 
     if c == d:
-        return jsonify({"message": "https://dogs"}), 200
+        return jsonify({"message": "https://surfdoge.pro"}), 200
     elif c == e:
-        return jsonify({"message": "https://dogs"}), 200
+        return jsonify({"message": "https://surfdoge.pro"}), 200
     elif c == f:
-        return jsonify({"message": "https://tin"}), 200
+        return jsonify({"message": "https://tinf0il.tech"}), 200
     else:
         return jsonify({"message": "do normal"}), 200
 
