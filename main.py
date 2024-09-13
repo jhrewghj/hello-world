@@ -30,7 +30,7 @@ def submit_data():
     elif c == f:
         return jsonify({"message": "https://tinf0il.tech"}), 200
     elif c == g:
-        return jsonify({"message": "https://gointerstellar.app"}), 200
+        return jsonify({"message": "https://architecture.hillbrick.net/"}), 200
     elif c == f:
         return jsonify({"message": "https://basketrandomonline.github.io/play/minecraft-1.8.8/"}), 200
     elif user1 == c:
