@@ -5,7 +5,7 @@ app = Flask(__name__)
 CORS(app)
 #put hashing print over here
 
-
+db = SQLAlchemy()
 #username module
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
