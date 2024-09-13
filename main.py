@@ -1,7 +1,6 @@
 import sys
 from flask import Flask, jsonify, request
 from flask_cors import CORS  # Import CORS
-import hashing as h
 app = Flask(__name__)
 CORS(app)
 #put hashing print over here
@@ -10,6 +9,7 @@ CORS(app)
 def submit_data():
     data = request.get_json()
     u_and_p = [data['name'], data['message']]
+    import hashing as h
     c = h.hashedinfo(u_and_p[0], u_and_p[1])
     print("Received data:", data)
     response = {"message": "some data"}
