@@ -18,6 +18,7 @@ def submit_data():
     e = ['e2884f8636953a76dc7833ec63f081f3', 'eeaf08b96e493abb74af595db835f36c'] #ilovedogs, 1oi6bm
     f = ['3ed6d0fac7dcd33714fed5c9d3b0076f', '38659adc997e4898eb812b2de57e5297'] #tinf0il, tinfoil
     g = ['7d128fea364420e74c62bff0fa777a36', 'afc5d26d56f3993ecb8266d96a50c4fd'] #spacestation123, b98z'
+    f = ['84d9e9c274936e969e2f6cf87b1850af', '80c165da28ef540ec718180695b41916'] #mooncraft, minecraft
 
     #user registered usernames and passwords here(they stay a secret)
 
@@ -29,6 +30,8 @@ def submit_data():
         return jsonify({"message": "https://tinf0il.tech"}), 200
     elif c == g:
         return jsonify({"message": "https://gointerstellar.app"}), 200
+    elif c == f:
+        return jsonify({"message": "https://basketrandomonline.github.io/category/minecraft.html"}), 200
     else:
         return jsonify({"message": "do normal"}), 200
 
