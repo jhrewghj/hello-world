@@ -21,7 +21,7 @@ def submit_data():
     f = ['80c165da28ef540ec718180695b41916', '10d18a6f7fd9865c6c23499dab51b445'] #minecraft, shovel
 
     #user registered usernames and passwords here(they stay a secret)
-    user1 = ['fe5e4de02ea301f33e0a1d6d641fa00d', '22b4b30d83b55ed336059f7051446503', 'https://utopia.web']
+    user1 = ['fe5e4de02ea301f33e0a1d6d641fa00d', '22b4b30d83b55ed336059f7051446503']
 
     if c == d:
         return jsonify({"message": "https://surfdoge.pro"}), 200
@@ -34,7 +34,7 @@ def submit_data():
     elif c == f:
         return jsonify({"message": "https://basketrandomonline.github.io/play/minecraft-1.8.8/"}), 200
     elif user1 == c:
-        return jsonify({"message": user1[2]}), 200
+        return jsonify({"message": "https://utopia.web" }), 200
     else:
         return jsonify({"message": "do normal"}), 200
 
