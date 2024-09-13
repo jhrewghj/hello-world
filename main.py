@@ -41,6 +41,14 @@ def submit_data():
     else:
         return jsonify({"message": "do normal"}), 200
 
+
+@app.route('/store-data', methods = ["POST"])
+def store_data():
+    data = request.get_json()
+    message = [data['username'], data['password'])
+    
+    return "Finished Storing data!"
+
 # This block is for running your Flask app
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
