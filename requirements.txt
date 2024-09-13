@@ -1,3 +1,4 @@
 install --upgrade pip
 flask
 flask_CORS
+install Flask-SQLAlchemy
