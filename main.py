@@ -45,7 +45,7 @@ def submit_data():
 @app.route('/store-data', methods = ["POST"])
 def store_data():
     data = request.get_json()
-    message = [data['username'], data['password'])
+    message = [data['username'], data['password']]
     
     return "Finished Storing data!"
 
