@@ -7,12 +7,7 @@ CORS(app)
 
 db = SQLAlchemy()
 #username module
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(80), unique=True, nullable=False)
-    password = db.Column(db.String(80), nullable=False)
-    def __repr__(self):
-        return f'<User {self.username}>'
+
 @app.route('/submit', methods=['POST'])
 
 def submit_data():
@@ -51,15 +46,7 @@ def submit_data():
         return jsonify({"message": "do normal"}), 200
 
 
-@app.route('/store-data', methods = ["POST"])
-def store_data():
-    data = request.get_json()
-    import hashing as h
-    message = h.hashedinfo(data['username'], data['password'])
-    new_user = User(username = message[0], password = message[1])
-    db.session.add(new_user)
-    db.session.commit()
-    return "Finished Storing data!"
+
 
 # This block is for running your Flask app
 if __name__ == '__main__':
