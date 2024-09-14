@@ -5,7 +5,7 @@ app = Flask(__name__)
 CORS(app)
 #put hashing print over here
 
-db = SQLAlchemy()
+# db = SQLAlchemy()
 #username module
 
 @app.route('/submit', methods=['POST'])
